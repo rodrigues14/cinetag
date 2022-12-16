@@ -1,4 +1,3 @@
-import Rodape from "components/Rodape"
 import Inicio from "pages/Inicio"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
@@ -8,7 +7,6 @@ export default function AppRoutes() {
       <Routes>
         <Route path="/" element={<Inicio />}></Route>
       </Routes>
-      <Rodape />
     </BrowserRouter>
   )
 }
