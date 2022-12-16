@@ -1,0 +1,12 @@
+.container section {
+  margin: 2em 10em;
+  text-align: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .container section {
+    margin: 2em;
+  }
+}
