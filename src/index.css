@@ -2,7 +2,8 @@
   --fonte: 'Montserrat', sans-serif;
   --branco: #ffffff;
   --preto: #000000;
-  --cinza: #e2e2e2
+  --cinza: #e2e2e2;
+  --cinza-escuro: #acacac;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
   background-color: var(--branco);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
 code {

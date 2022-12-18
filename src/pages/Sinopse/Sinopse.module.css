@@ -1,0 +1,25 @@
+.container div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container div p {
+  width: 50%;
+  text-align: left;
+  font-size: 18px;
+}
+
+.container div img {
+  text-align: center;
+}
+
+@media screen and (max-width: 670px) {
+  .container div {
+    flex-direction: column;
+  }
+
+  .container div p {
+    width: 100%;
+    text-align: center;
+  }
+}

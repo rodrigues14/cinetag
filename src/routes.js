@@ -2,7 +2,7 @@ import Favoritos from "pages/Favoritos"
 import Inicio from "pages/Inicio"
 import NaoEncontrada from "pages/NaoEncontrada"
 import PaginaBase from "pages/PaginaBase"
-import Player from "pages/Player"
+import Sinopse from "pages/Sinopse"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 export default function AppRoutes() {
@@ -12,7 +12,7 @@ export default function AppRoutes() {
         <Route path="/" element={<PaginaBase />}>
           <Route index element={<Inicio />} />
           <Route path="favoritos" element={<Favoritos />} />
-          <Route path=":id" element={<Player />} />
+          <Route path=":id" element={<Sinopse />} />
           <Route path="*" element={<NaoEncontrada />} />
         </Route>
       </Routes>
